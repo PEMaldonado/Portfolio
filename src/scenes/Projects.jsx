@@ -14,7 +14,7 @@ const projectVariant = {
 const Project = ({ title, link }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
-  const projectTitle = title.split(" ").join("-").toLowerCase();
+  const projectTitle = title.toLowerCase();
 
   return (
     <motion.div variants={projectVariant} className="relative">
@@ -24,7 +24,7 @@ const Project = ({ title, link }) => {
           Go to the project web
         </a>
       </div>
-      <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
+      <img src={`../assets/${projectTitle}.png`} />
     </motion.div>
   );
 };
