@@ -24,7 +24,7 @@ const Project = ({ title, link }) => {
           Go to the project web
         </a>
       </div>
-      <img src={`../assets/${projectTitle}.png`} />
+      <img src={`../assets/sportwear.png`} alt={projectTitle} />
     </motion.div>
   );
 };
