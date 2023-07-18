@@ -1,6 +1,6 @@
 import LineBlue from "../components/LineBlue";
 import { motion } from "framer-motion";
-import imagen from "../assets/pokemon.png";
+
 const container = {
   hidden: [],
   visible: { transition: { staggerChildren: 0.2 } },
@@ -24,7 +24,7 @@ const Project = ({ title, link }) => {
           Go to the project web
         </a>
       </div>
-      <img src={imagen} alt={projectTitle} />
+      <img src="../assets/sportwear.png" alt={projectTitle} />
     </motion.div>
   );
 };
