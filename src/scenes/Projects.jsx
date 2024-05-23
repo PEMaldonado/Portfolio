@@ -68,6 +68,10 @@ const Projects = () => {
         >
           {/* ROW 1 */}
           <Project
+            title="MernEats"
+            link="https://food-project-frontend.onrender.com/"
+          />
+          <Project
             title="Pokemon"
             link="https://pokemon-front-zeta.vercel.app"
           />

@@ -40,11 +40,11 @@ function App() {
       </div>
       <LineBlue />
       <div className="w-5/6 mx-auto md:h-full ">
-        <MySkills />
+        <Projects />
       </div>
       <LineBlue />
       <div className="w-5/6 mx-auto ">
-        <Projects />
+        <MySkills />
       </div>
       <LineBlue />
       <div className="w-5/6 mx-auto md:h-full ">
