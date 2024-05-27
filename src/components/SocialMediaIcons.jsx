@@ -19,14 +19,6 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://www.facebook.com/pablo.maldonado.9"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img src="../assets/facebook.png" alt="facebook-link" />
-      </a>
-      <a
-        className="hover:opacity-50 transition duration-500"
         href="https://www.instagram.com/paaablo2086/"
         target="_blank"
         rel="noreferrer"
@@ -34,7 +26,7 @@ const SocialMediaIcons = () => {
         <img src="../assets/instagram.png" alt="instagram-link" />
       </a>
     </div>
-  )
-}
+  );
+};
 
-export default SocialMediaIcons
+export default SocialMediaIcons;
